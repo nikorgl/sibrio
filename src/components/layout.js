@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import Bg from "../images/renovation.png"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,7 +27,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div className="main-wrap" >
+      <div className="main-wrap" style={{ backgroundImage: `url(${Bg})`}} >
         <main>{children}</main>
       </div>
     </>

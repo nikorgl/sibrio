@@ -97,7 +97,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr minmax(100px,960px) 1fr;
     grid-template-areas: ". posts ." ;
-    background: url(/renovation.png)  no-repeat  center;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     min-height: calc(100vh - 100px);
 }
