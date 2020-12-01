@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ремонт и отделка`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Выполнение работ по ремонту и отделке жилых помещений. Услуги лушчих мастеров.`,
     author: `@gatsbyjs`,
   },
   plugins: [
